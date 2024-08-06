@@ -68,7 +68,7 @@ const Form = () => {
         <input type="text" value={name} onChange={nameValid} /><br />
         <input type="text" value={age} onChange={ageValid} /><br />
         <div>
-          {name && age ? <button>Submit</button> : "Please Fill out the form"}
+          {name && age ? <button>Enter Values</button> : "Please Fill out the form"}
         </div>
       </form>
     </div>
