@@ -12,6 +12,7 @@ import ProductAPI from './components/ProductAPI';
 import UseCallback from './components/UseCallback';
 import SearchProducts from './components/SearchProducts';
 import ReactFrom from './components/ReactFrom';
+import Title from './components/Title';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='formik' element={<Formik />} />
           <Route path='products' element={<ProductAPI />} />
           <Route path='usecallback' element={<UseCallback />} />
+          <Route path='title' element={<Title />} />
         </Routes>
      </BrowserRouter>
   );

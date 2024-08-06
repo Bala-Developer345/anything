@@ -18,6 +18,7 @@ const Header = () => {
           </div>
           <div className="menu">
             <ul className='d-flex'>
+            <li className='mx-4'><Link to='title'>Title</Link></li>
             <li className='mx-4'><Link to='reactform'>React From</Link></li>
             <li className='mx-4'><Link to='usecallback'>Usecallback</Link></li>
             <li className='mx-4'><Link to='products'>Products</Link></li>
