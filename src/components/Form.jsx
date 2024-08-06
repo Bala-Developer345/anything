@@ -65,11 +65,9 @@ const Form = () => {
   return (
     <div>
       <form method='post'>
-        <input type="text" value={name} onChange={nameValid} /><br />
-        <input type="text" value={age} onChange={ageValid} /><br />
-        <div>
-          {name && age ? <button>Enter Values</button> : "Please Fill out the form"}
-        </div>
+        <input type="text" placeholder='Enter your name' value={name} onChange={nameValid} /><br />
+        <input type="text" placeholder='Enter your number' value={age}  onChange={ageValid} /><br />
+        <div>        </div>
       </form>
     </div>
   )
